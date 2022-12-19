@@ -44,7 +44,7 @@ Table of contents:
 * PyTorch Geometric was a more robust and efficient way to implement a GNN with lots of help online, but all of them use an existing dataset which is MUTAG, TUdatses etc, which are already imported as graph objects. The hurdle here was to convert pandas DataFrame objects into graph data objects.
 * I struggled with this for a few days (2 days) and it was a blocker. Soon I came across this link - https://www.blopig.com/blog/2022/02/how-to-turn-a-smiles-string-into-a-molecular-graph-for-pytorch-geometric/ that shows how to turn SMILES into a graph data object (gotta love open source!!)
 * I followed their tutorial, and I now have a graph data object, Next I use the PyTorch Geometric to implement the GNN with the help of this documentation - https://uvadlc-notebooks.readthedocs.io/en/latest/tutorial_notebooks/tutorial7/GNN_overview.html#PyTorch-Geometric
-* I then used Pytorch metrics to get the metrics of the model
+* I then used Pytorch metrics to get the metrics of the model from this documentation - https://torchmetrics.readthedocs.io/en/latest/all-metrics.html
 * overall implementing this took 3 days
 
 ### Stage 4: Transformer Model - ChemBERTa
