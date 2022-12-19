@@ -7,6 +7,8 @@ Table of contents:
 3. [Benchmarks](#3-benchmarks)
 4. [Key Metrics for Sales Team](#4-key-metrics-for-sales-team)
 
+*Overall time to complete the project is 3 days 2 hours and 15 mins* 
+
 ## Requirements
 * Train a supervised graph neural network, a tree model and a transformer model
 * Choose a dataset(s) from the TDC to train the models with
