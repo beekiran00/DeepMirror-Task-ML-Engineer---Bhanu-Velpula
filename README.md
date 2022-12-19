@@ -1,6 +1,6 @@
 # DeepMirror Task (ML Engineer)
 
-[Task and Thought Process](# 1. Task and Thought Process)
+[1.Task and Thought Process](# doc: 1.Task and Thought Process)
 [Markdown - Link](#Link)
 
 ## Requirements
@@ -9,7 +9,7 @@
 * Benchmark the performance of the models and choose an appropriate metric to compare them
 * Summarise your findings in a format that can be clearly understood by the sales team
 
-[Task and Thought Process](##Task and Thought Process]
+## 1.Task and Thought Process
 
 ### Stage 1: Dataset and learning about stuff
 * Initially the very first thing I did was to take a look at the dataset, and I realised I have to get familiar with the terms and understand the data, so that I know what I am doing at all times.  
