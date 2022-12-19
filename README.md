@@ -4,7 +4,7 @@ Table of contents:
 
 1. [Task and Thought Process](#1-task-and-thought-process)
 2. [Benchmarks](#2-benchmarks)
-3. [Key Metrics for Sales Team][#3-key-metrics-for-sales-team]
+3. [Key Metrics for Sales Team](#3-key-metrics-for-sales-team)
 
 ## Requirements
 * Train a supervised graph neural network, a tree model and a transformer model
