@@ -2,9 +2,10 @@
 
 Table of contents:
 
-1. [Task and Thought Process](#1-task-and-thought-process)
-2. [Benchmarks](#2-benchmarks)
-3. [Key Metrics for Sales Team](#3-key-metrics-for-sales-team)
+1. [Files in this repo](#1-files-in-this-repo)
+2. [Task and Thought Process](#2-task-and-thought-process)
+3. [Benchmarks](#3-benchmarks)
+4. [Key Metrics for Sales Team](#4-key-metrics-for-sales-team)
 
 ## Requirements
 * Train a supervised graph neural network, a tree model and a transformer model
@@ -12,7 +13,17 @@ Table of contents:
 * Benchmark the performance of the models and choose an appropriate metric to compare them
 * Summarise your findings in a format that can be clearly understood by the sales team
 
-## 1 Task and Thought Process
+## 1 Files in this repo
+
+* this repoository consists of the following files
+
+1. Decision Tree Classifier DM.ipynb - code for the decision tree classifier
+2. Graph Neural Network DM.ipynb - code for graph neural networks
+3. Transformer mode.ipynb - code for transformer model
+4. Summary and Sales Team metrics - pdf file summarising the findings and metrics chosen for sales team to close the sales
+5. README - this document containing detailed information about the task, my thought process and how I met the requirements
+
+## 2 Task and Thought Process
 
 ### Stage 1: Dataset and learning about stuff
 * Initially the very first thing I did was to take a look at the dataset, and I realised I have to get familiar with the terms and understand the data, so that I know what I am doing at all times.  
@@ -46,7 +57,7 @@ Table of contents:
 * This document also has the metrics for sales team to close the sale
 
 
-## 2 Benchmarks
+## 3 Benchmarks
 
 * The benchmarks for the models are compared on the following dataset:
 * 
@@ -77,7 +88,7 @@ Dataset Split: Random Split Scaffold Split
 
 * Overall GNN model had the best ROC-AUC score to time. Although transformer model had the best ROC-AUC score, it took a lot of time to run, where as the GNN model had a decent ROC-AUC score, where the threshold was 0.80 along with the highest accuracy, it makes it the best model
 
-## 3 Key Metrics for Sales Team
+## 4 Key Metrics for Sales Team
 * when the sales team is making the sales, ideally nobody wants to hear numbers that do not make sense to them, therefore the sales team can close the deal with accuracy - which indicates how good the model predicts, and ROC-AUC score - closer to 1 the better 
 
 
