@@ -1,6 +1,7 @@
 # DeepMirror Task (ML Engineer)
 
-[1.Task and Thought Process](# doc: 1.Task and Thought Process)
+[1.Task and Thought Process](doc:link-to-pages#1.Task and Thought Process).
+
 [Markdown - Link](#Link)
 
 ## Requirements
